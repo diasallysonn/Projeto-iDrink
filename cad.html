@@ -4,8 +4,20 @@
 	<title>Tela de Cadastro</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="esti.css">
+	<script type="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		function funcao1() 
+		{
+			alert("Cadastro com Sucesso!");
+		}
+	</script>
 </head>
 <body>
+	<div >
+	<nav>
+		<a href="iDrink.html"><img src="img/fonte.png"></a>
+	</nav>
+	</div>
 	<div class="cadastro">
 		<img src="img/usuario.png" class="usuario" width="100" height="100">
 		<h1>Cadastro</h1>
@@ -17,7 +29,7 @@
 			<input type="text" name="" placeholder="Insira seu e-mail">
 			<p>Senha</p>
 			<input type="password" name="" placeholder="Insira sua senha" align="center">
-			<input type="submit" name="" value="Finalizar">
+			<input type="submit" name="" value="Finalizar" id="msg" onclick="funcao1()">
 
 		</form>
 
